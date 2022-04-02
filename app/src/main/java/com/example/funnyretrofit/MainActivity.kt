@@ -88,7 +88,7 @@ class MainActivity : AppCompatActivity() {
                 }
 
             } catch (e: Exception) {
-                Log.e("Main", "Error: ${e.message}")
+                Log.e("errorTag", "Error: ${e.message}")
             }
         }
     }
